@@ -1,34 +1,72 @@
 package com.test
 
 fun main(){
-    println("inheritance abstract")
+    println("inheritance interface")
 
-    val a:Animal = Cat()  //추상클래스를 상속받은 재정의된 클래스로 생성
-    a.absFn()
+    val b:Book = Store(50000, 255)
+
+    println(b.price)
+    b.fn1()
+    b.fn2()
+    b.fn3()
+
+    val n:Note = Store(50000, 255)
+    n.fn4()
+    n.fn5()
+
+    val s:Store = Store(50000, 255)
+    s.fn1()
+    s.fn2()
+    s.fn3()
+    s.fn4()
+    s.fn5()
 
 }//end main()
 
-//상속받는 클래스에서 로직처리를 하도록 강제하는 명세(추상) 클래스
-abstract class Animal{
-
-    abstract fun absFn()
-    open fun test() = 111  // 기본적을 강제되지 않아 만약 오버라이드해서 사용할려면  open
-
-    open fun test2(){
-
+interface Book{
+    //var price:Int = 30000 //속성오버라이드를 강제하기 때문에 상속받은쪽에서 초기화를 강제한다. = 3000 (x)
+    var price:Int
+    fun fn1():Unit
+    fun fn2():String
+    fun fn3():String{
+        println("Book fn3()...")
+        return "kim"
     }
 }
 
-abstract class Animal2:Animal(){
+
+interface Note /*:Book*/ {  //인터페이스가 인터페이스를 상속받을수 있음 /*:Book*/
+    var color:Int
+
+    fun fn4():Int
+    fun fn5():IntArray
 
 }
 
-class Cat:Animal() {   //Animal2 를 상속받으면 Animal 클래스 내 메소드를 오버라이드 해야함
-    override fun absFn() {
-        println("Cat override absFn()")
+//객체를 생성하기 위한 인터페이스를 상속 받은 클래스를 생성
+class Store(override var price: Int, override var color: Int) :Book, Note{
+    override fun fn4(): Int {
+        println("Store fn4()...")
+        return 100
     }
-    override fun test() = 333  //override 시 추상메소드에 형태를 동일하게 사용해야한다. {}가 없는데 넣으면 Unit 로 오류가 발생할수 있음
-    override fun test2(){
 
+    override fun fn5(): IntArray {
+        println("Store fn5()...")
+        return IntArray(5)
     }
+//    override var price: Int
+//        get() = 3000
+//        set(value) {}
+
+    override fun fn1() {
+        println("Store fn1()...")
+    }
+
+    override fun fn2(): String {
+        println("Store fn2()...")
+        return "lee"
+    }
+
 }
+
+

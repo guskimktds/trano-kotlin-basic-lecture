@@ -1,4 +1,4 @@
 package aaa.bbb
 
-class Test09CCC {
+internal class Test09CCC {
 }

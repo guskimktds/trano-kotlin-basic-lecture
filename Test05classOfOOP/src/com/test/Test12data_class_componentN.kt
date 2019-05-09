@@ -1,18 +1,13 @@
 package com.test
 
 fun main() {
-    println("data class copy")
+    println("data class component")
 
-    val b1:BBB = BBB("kim", 33)
-    val b2 = b1.copy()
+    val (name,age) = CCC("kim", 33)  //일반 클래스는 안됨
 
-    println(b1.hashCode())
-    println(b2.hashCode())
-
-    val b3 = b1.copy(age=44)
-    println(b3)
-    println(b3.hashCode())
+    println(name)
+    println(age)
 
 }//end main
 
-data class BBB(val name:String="admin", val age:Int=0)
+data class CCC(val name:String="admin", val age:Int=0)

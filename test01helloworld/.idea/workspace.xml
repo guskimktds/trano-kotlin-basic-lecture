@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e47046-791c-448f-8ef4-3825522f014a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test01create_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test02constructor_overloading.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test03fun_overloading.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test04inner_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test05inheritance_open.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/aaa/bbb/Test09CCC.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/aaa/bbb/Test09DDD.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test06inheritance_abstract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test07inheritance_interface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test08visibilityModifier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test09BBB.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test09javaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test10data_class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test10data_class2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test11data_class_copy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test12data_class_componentN.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test13enum_class.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
