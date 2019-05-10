@@ -28,8 +28,46 @@ fun main() {
         }
     }).start()
 
+    //3. Thread(Runnable).run{start()}
+    Thread(Runnable {
+        testLoop()
+    }).run{start()}
 
+
+    //4.Thread() class 상속
+    ThreadEx().start()
+
+    //5.Runnable interface implements
+    Thread(RunnableImpl()).start()
 
     println("end main....")
 
 }//end main
+
+open class AAA
+class RunnableImpl:AAA(), Runnable{
+    override fun run() {
+        for(i in 90..99){
+            print("$i ")
+            Thread.sleep(500)
+        }
+    }
+}
+
+class ThreadEx:Thread(){
+    override fun run() {
+        for(i in 20..29){
+            print("$i ")
+            Thread.sleep(500)
+        }
+    }
+}
+
+
+fun testLoop(){
+
+    for(i in 'a'..'j'){
+        print("$i ")
+        Thread.sleep(500)
+    }
+}
