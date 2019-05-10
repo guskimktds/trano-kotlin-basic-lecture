@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="281659d2-9166-4c75-92fd-194c0e1e6e9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test03array/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test04collection/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/Test07thread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/Test07thread.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test03array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test03array/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test04collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test04collection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test06function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test06function/.idea/workspace.xml" afterDir="false" />
@@ -106,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="320" />
     <option name="y" value="5" />
     <option name="width" value="1400" />
@@ -255,7 +248,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="5" width="1400" height="1000" extended-state="1" />
+    <frame x="320" y="5" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />

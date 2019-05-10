@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="865a03cf-cdf6-43d4-a4ad-ab4de7a21dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test02statement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test03array/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/Test07thread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/Test07thread.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test02statement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test02statement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test03array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test03array/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test06function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test06function/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -113,10 +106,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="2" />
+    <option name="x" value="320" />
+    <option name="y" value="5" />
     <option name="width" value="1400" />
-    <option name="height" value="1015" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
