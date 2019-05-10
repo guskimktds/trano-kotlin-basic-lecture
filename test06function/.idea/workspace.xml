@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf39a75-1b0b-48fd-a4f0-8f820d5c0f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test04Reflection_Function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test05Reflection_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test06nullsafe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test07MySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test07singleton_java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test07singleton_object.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test08static_compaion_object.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test09Thread_Runnable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/test06function/META-INF/test06function.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/META-INF/test06function.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt$ccc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt$ccc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt$ccc2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt$ccc2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt$ccc3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt$ccc3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test03HighOrderFunctionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/Test03HighOrderFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Test03HighOrderFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Bundle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Bundle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test05Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test05Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test05Reflection_classKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test05Reflection_classKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,24 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/Test01function.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/Test01function2.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +64,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/Test06nullsafe.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test07singleton_object.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test08static_compaion_object.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test09Thread_Runnable.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test07singleton_java.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test07MySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -97,6 +123,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -114,6 +141,11 @@
         <option value="$PROJECT_DIR$/src/com/test/Test04Reflection.kt" />
         <option value="$PROJECT_DIR$/src/com/test/Test05Reflection_class.kt" />
         <option value="$PROJECT_DIR$/src/com/test/Test06nullsafe.kt" />
+        <option value="$PROJECT_DIR$/src/com/test/Test07MySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/test/Test07singleton_java.java" />
+        <option value="$PROJECT_DIR$/src/com/test/Test07singleton_object.kt" />
+        <option value="$PROJECT_DIR$/src/com/test/Test08static_compaion_object.kt" />
+        <option value="$PROJECT_DIR$/src/com/test/Test09Thread_Runnable.kt" />
       </list>
     </option>
   </component>
@@ -176,46 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.test.Test05Reflection_classKt">
-    <configuration name="com.test.Test01function2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="test06function" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Test01function2Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.test.Test02LambdaFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="test06function" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Test02LambdaFunctionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.test.Test03HighOrderFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="test06function" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Test03HighOrderFunctionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.com.test.Test09Thread_RunnableKt">
     <configuration name="com.test.Test04Reflection_FunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="test06function" />
       <option name="VM_PARAMETERS" />
@@ -242,13 +235,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.test.Test07singleton_objectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="test06function" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test07singleton_objectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.Test08static_compaion_objectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="test06function" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test08static_compaion_objectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.Test09Thread_RunnableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="test06function" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test09Thread_RunnableKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.test.Test09Thread_RunnableKt" />
+        <item itemvalue="Kotlin.com.test.Test08static_compaion_objectKt" />
+        <item itemvalue="Kotlin.com.test.Test07singleton_objectKt" />
         <item itemvalue="Kotlin.com.test.Test05Reflection_classKt" />
         <item itemvalue="Kotlin.com.test.Test04Reflection_FunctionKt" />
-        <item itemvalue="Kotlin.com.test.Test03HighOrderFunctionKt" />
-        <item itemvalue="Kotlin.com.test.Test02LambdaFunctionKt" />
-        <item itemvalue="Kotlin.com.test.Test01function2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +301,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,7 +310,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,8 +377,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/Test06nullsafe.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test07MySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test07singleton_java.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test07singleton_object.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test08static_compaion_object.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test09Thread_Runnable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
