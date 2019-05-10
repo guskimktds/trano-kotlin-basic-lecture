@@ -11,10 +11,17 @@ import android.support.design.widget.NavigationView
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.Menu
+import android.widget.Button
+import android.widget.TextView
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.android.Main
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-
+    private var count = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -35,6 +42,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         navView.setNavigationItemSelectedListener(this)
+
+        val btn_start = findViewById<Button>(R.id.btn_start)
+        val tv_message = findViewById<TextView>(R.id.tv_message)
+        btn_start.setOnClickListener {
+            count++
+            CoroutineScope(Dispatchers.Main).launch {
+                for (i in 10 downTo 1) {
+                    tv_message.text = "Now Click $count Countdown $i ..."
+                    delay(500)
+                }
+                tv_message.text = "Done!"
+            }
+        }
     }
 
     override fun onBackPressed() {

@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e47046-791c-448f-8ef4-3825522f014a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test14sealed_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test06function/src/com/test/Test01function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test06function/test06function.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test02statement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test03array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test04collection/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/Test07thread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/java/com/example/test07android/Test07thread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test07android/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test07android/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test02statement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test02statement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test03array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test03array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test04collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test04collection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test06function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test06function/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/Test01hello.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -51,7 +57,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/test/Test04operator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="-28">
               <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
             </state>
           </provider>
@@ -87,10 +93,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="10" />
-    <option name="width" value="1400" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="142" />
+    <option name="y" value="8" />
+    <option name="width" value="1732" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -99,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +128,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,10 +223,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="10" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,8 +257,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/test/Test01hello.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -272,7 +278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/Test04operator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="-28">
           <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
         </state>
       </provider>
