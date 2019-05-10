@@ -39,7 +39,7 @@ fun main() {
     ccc()()
 
     println(ccc2()(10))
-    
+
     println(ccc3()(10,20))
 
 
