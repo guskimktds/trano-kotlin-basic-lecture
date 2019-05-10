@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf39a75-1b0b-48fd-a4f0-8f820d5c0f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Test05classOfOOP/src/com/test/Test14sealed_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test01function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test01function2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test06function.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test05classOfOOP/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Test05classOfOOP/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test03HighOrderFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/META-INF/test06function.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/META-INF/test06function.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$afn3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt$main$afn3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test06function/com/test/Test02LambdaFunctionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="361">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test03HighOrderFunction.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -68,13 +79,7 @@
         <option value="$PROJECT_DIR$/src/com/test/Test01function.kt" />
         <option value="$PROJECT_DIR$/src/com/test/Test01function2.kt" />
         <option value="$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/com/test/Test03HighOrderFunction.kt" />
       </list>
     </option>
   </component>
@@ -117,6 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/test" />
   </component>
   <component name="RecentsManager">
@@ -136,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.test.Test02LambdaFunctionKt">
+  <component name="RunManager" selected="Kotlin.com.test.Test03HighOrderFunctionKt">
     <configuration name="com.test.Test01function2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="test06function" />
       <option name="VM_PARAMETERS" />
@@ -176,8 +182,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.test.Test03HighOrderFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="test06function" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test03HighOrderFunctionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.test.Test03HighOrderFunctionKt" />
         <item itemvalue="Kotlin.com.test.Test02LambdaFunctionKt" />
         <item itemvalue="Kotlin.com.test.Test01function2Kt" />
         <item itemvalue="Kotlin.com.test.Test01functionKt" />
@@ -246,8 +266,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/Test02LambdaFunction.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="361">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test03HighOrderFunction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
         </state>
       </provider>
     </entry>
