@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="374f6af4-f347-403c-b5a0-2c57c2004fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aaa/bbb/Test09CCC.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aaa/bbb/Test09DDD.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test06inheritance_abstract.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test07inheritance_interface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test08visibilityModifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test09BBB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test09javaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test10data_class.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test10data_class2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test11data_class_copy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test12data_class_componentN.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/Test13enum_class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/Test14sealed_class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test06function/src/com/test/Test01function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test06function/test06function.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test05classOfOOP/META-INF/Test05classOfOOP.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01helloworld/.idea/workspace.xml" afterDir="false" />
@@ -36,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/test/Test10data_class.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -45,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/test/Test10data_class2.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -68,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/Test13enum_class.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="123">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/Test14sealed_class.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -112,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/com/test/Test11data_class_copy.kt" />
         <option value="$PROJECT_DIR$/src/com/test/Test12data_class_componentN.kt" />
         <option value="$PROJECT_DIR$/src/com/test/Test13enum_class.kt" />
+        <option value="$PROJECT_DIR$/src/com/test/Test14sealed_class.kt" />
       </list>
     </option>
   </component>
@@ -140,12 +140,6 @@
               <item name="Test05classOfOOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test05classOfOOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test05classOfOOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test05classOfOOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bbb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test05classOfOOP" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.test.Test13enum_classKt">
+  <component name="RunManager" selected="Kotlin.com.test.Test14sealed_classKt">
     <configuration name="com.test.Test10data_class2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Test05classOfOOP" />
       <option name="VM_PARAMETERS" />
@@ -192,19 +186,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.test.Test10data_class2Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.test.Test10data_classKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Test05classOfOOP" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Test10data_classKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,13 +230,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.test.Test14sealed_classKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Test05classOfOOP" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Test14sealed_classKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.test.Test14sealed_classKt" />
         <item itemvalue="Kotlin.com.test.Test13enum_classKt" />
         <item itemvalue="Kotlin.com.test.Test12data_class_componentNKt" />
         <item itemvalue="Kotlin.com.test.Test11data_class_copyKt" />
         <item itemvalue="Kotlin.com.test.Test10data_class2Kt" />
-        <item itemvalue="Kotlin.com.test.Test10data_classKt" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +283,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3298731" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,14 +417,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/test/Test10data_class.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/Test10data_class2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -450,8 +444,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/Test13enum_class.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="123">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/Test14sealed_class.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
